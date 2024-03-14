@@ -1,0 +1,21 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	row-gap: 25px;
+}
+.in-view {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+}
+.screen-box {
+	border: 2px solid tomato;
+	min-height: 100vh;
+	width: 100%;
+}
+.screen-box.bg-blue {
+	background-color: blueviolet;
+}
